@@ -1,0 +1,2 @@
+INSERT INTO todo_task ("id", "title", "priority", "status", "is_complete", "comment", "deadline", "created_at")
+VALUES ({{this.params.id}}, '{{Input_TaskTitle.text}}', 'LOW', 'pending', false, '', '{{new Date().toISOString().split('T')[0]}}', '{{new Date().toISOString()}}');

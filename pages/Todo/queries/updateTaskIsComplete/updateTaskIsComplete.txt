@@ -1,0 +1,5 @@
+UPDATE todo_task
+SET
+	is_complete = {{!appsmith.store.selectedTask.is_complete}}
+WHERE
+  id = {{appsmith.store.selectedTask.id}}
