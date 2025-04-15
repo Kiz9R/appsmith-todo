@@ -1,2 +1,0 @@
-DELETE FROM todo_task
-WHERE id = {{appsmith.store.selectedTask.id}}
