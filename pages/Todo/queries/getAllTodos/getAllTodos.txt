@@ -1,0 +1,1 @@
+SELECT * FROM todo_task ORDER BY is_complete ASC, id DESC;

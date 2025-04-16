@@ -1,4 +1,5 @@
 {
+  "gitSyncId": "67fe5e4b8c6c6360c5e16857_189c7e27-2f85-48fa-a032-42c87ec16cca",
   "id": "Todo_toggleTaskStatus",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
@@ -29,8 +30,6 @@
     "executeOnLoad": false,
     "name": "toggleTaskStatus",
     "pageId": "Todo",
-    "userSetOnLoad": false,
-    "successMessage": "Task status updated!",
-    "onSuccess": "{{getAllTodos.run()}}"
+    "userSetOnLoad": false
   }
 }

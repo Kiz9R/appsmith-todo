@@ -1,4 +1,5 @@
 {
+  "gitSyncId": "67fe5e4b8c6c6360c5e16857_56a8facc-fd73-4f83-82f3-8f7e9aa0fa13",
   "id": "Todo_createNewTask",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
@@ -29,8 +30,6 @@
     "executeOnLoad": false,
     "name": "createNewTask",
     "pageId": "Todo",
-    "userSetOnLoad": false,
-    "successMessage": "Task created successfully!",
-    "onSuccess": "{{getAllTodos.run()}}"
+    "userSetOnLoad": false
   }
 }

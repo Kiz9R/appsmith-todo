@@ -1,0 +1,6 @@
+UPDATE todo_task
+SET
+	is_complete = NOT is_complete,
+	updated_at = '{{new Date().toISOString()}}'
+WHERE
+  id = {{Table_Tasks.selectedRow.id}}

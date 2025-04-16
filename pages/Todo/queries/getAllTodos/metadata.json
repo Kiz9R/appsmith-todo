@@ -1,4 +1,5 @@
 {
+  "gitSyncId": "67fe5e4b8c6c6360c5e16857_2a9d3f02-5b87-45a8-8d3b-46e89311c129",
   "id": "Todo_getAllTodos",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",

@@ -1,4 +1,5 @@
 {
+  "gitSyncId": "67fe5e4b8c6c6360c5e16857_9b020dd2-2d4b-4539-acd9-1bf555d893a6",
   "id": "Todo_deleteTask",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
@@ -29,9 +30,6 @@
     "executeOnLoad": false,
     "name": "deleteTask",
     "pageId": "Todo",
-    "userSetOnLoad": false,
-    "confirmationMessage": "Are you sure you want to delete this task?",
-    "successMessage": "Task deleted successfully!",
-    "onSuccess": "{{getAllTodos.run()}}"
+    "userSetOnLoad": false
   }
 }
