@@ -11,6 +11,10 @@
   "pages": [
     {
       "id": "Tasks",
+      "isDefault": false
+    },
+    {
+      "id": "Todo",
       "isDefault": true
     }
   ],
